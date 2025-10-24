@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Bookshelf</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Virtual Bookshelf</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>The Magic</h2>
+<h5>Rhonda Byrne</h5><br>
+<p>A life-changing self-help book that reveals how gratitude can transform your life, helping you attract positivity, joy, and success through simple daily practices.</p>
+            <button onclick="deleteitem(event)">Delete</button>
+        </div>
+    </div>
+
+<div class="popup-overlay">
+</div>
+<div class="popup-box">
+    <h3>Add Book</h3>
+    <form>
+        <input type="text" placeholder="Book Title" id="book-title-input">
+        <input type="text" placeholder="Author Name" id="book-author-input">
+        <textarea placeholder="short description" id="book-description-input"></textarea>
+        <button id="add-btn">Add</button>
+        <button id="cancel">Cancel</button>
+    </form>
+</div>
+
+
+
+
+<button class="new-btn" id="new-popup-btn"><h1>+</h1></button>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
