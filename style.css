@@ -124,15 +124,15 @@ padding-bottom: 5px;
   }
 
   .book-container {
-    width: 90%;
-    margin: 10px auto;
+    width: 70%;
+    margin: 8px auto;
     display: block;
   }
 
   .popup-box {
-    width: 90%;
-    left: 5%;
-    top: 15%;
+    width: 80%;
+    left: 3%;
+    top: 13%;
   }
 
   .popup-box h3 {
@@ -140,8 +140,9 @@ padding-bottom: 5px;
   }
 
   .new-btn {
-    right: 15px;
-    bottom: 20px;
+    right: 13px;
+    bottom: 15px;
     top: auto;
   }
 }
+
