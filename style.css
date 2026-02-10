@@ -99,3 +99,49 @@ padding-bottom: 5px;
 .popup-box textarea:focus{
     outline:none;
 }
+/* Tablets */
+@media (max-width: 768px) {
+  .book-container {
+    width: 45%;
+  }
+
+  .popup-box {
+    width: 70%;
+    left: 15%;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .navbar {
+    text-align: center;
+    height: auto;
+  }
+
+  .container {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .book-container {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .popup-box {
+    width: 90%;
+    left: 5%;
+    top: 15%;
+  }
+
+  .popup-box h3 {
+    text-align: center;
+  }
+
+  .new-btn {
+    right: 15px;
+    bottom: 20px;
+    top: auto;
+  }
+}
